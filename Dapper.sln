@@ -5,6 +5,12 @@ VisualStudioVersion = 25.0.1703.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper", "Dapper\Dapper.csproj", "{9B3D8D42-A5FD-455F-8E7B-851762B8D7A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F04B4F9-50CF-43DF-BAD5-B7B324E7F081}"
+	ProjectSection(SolutionItems) = preProject
+		IDepartmentRepository.cs = IDepartmentRepository.cs
+		DapperDepartmentRepository.cs = DapperDepartmentRepository.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
