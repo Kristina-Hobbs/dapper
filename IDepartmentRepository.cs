@@ -1,8 +1,9 @@
 ﻿using System;
 namespace Application
 {
-    public interface EmptyInterface
+    public interface IDepartmentRepository
     {
+        IEnumerable<Department> GetAllDepartments(); 
     }
 }
 

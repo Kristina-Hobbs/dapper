@@ -5,7 +5,7 @@ namespace Application
     {
         private readonly IDbConnection _connection;
 
-        public DapperDepartmentRepository(IDbConnection _connection)
+        public DapperDepartmentRepository(IDbConnection connection)
         {
             _connection = connection;
         }

@@ -5,6 +5,7 @@ namespace Dapper
     {
         public Department()
         {
+
         }
 
         public int DepartmentID { get; set; }
